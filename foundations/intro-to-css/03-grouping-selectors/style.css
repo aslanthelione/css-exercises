@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+.click-me {
+    color: white;
+    background-color: black;
+}
+
+.no-click-me {
+    color: black;
+    background-color: yellow;
+}
+
+.click-me,
+.no-click-me {
+    border: solid;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-top-color: rgb(76, 81, 79);
+    border-left-color: rgb(76, 81, 79);
+}
